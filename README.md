@@ -1,4 +1,4 @@
-[![CI/CD Workflow](https://github.com/cassiekang/IDS706-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/cassiekang/IDS706-template/actions/workflows/cicd.yml)
+[![CI/CD Workflow](https://github.com/cassiekang/IDS706_miniproject3_xk10/actions/workflows/cicd.yml/badge.svg)](https://github.com/cassiekang/IDS706_miniproject3_xk10/actions/workflows/cicd.yml)
 
 
 # Polars Descriptive Statistics Script
