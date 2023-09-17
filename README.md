@@ -15,11 +15,17 @@ This project aims to perform EDA on the 'bmi.csv' dataset from Kaggle (https://w
 2. The project incorporates an automated workflow managed through a Makefile, which efficiently handles various tasks. These tasks encompass installation (via "make install"), testing (via "make test"), code formatting (via "make format"), and code quality checks (via "make lint").
 ![Screen Shot 2023-09-17 at 13 55 27](https://github.com/nogibjj/IDS706_miniproject3_xk10/assets/143849077/f8406f9e-dc79-4183-bfe7-866a5d01c5eb)
 ![Screen Shot 2023-09-17 at 13 55 46](https://github.com/nogibjj/IDS706_miniproject3_xk10/assets/143849077/730cd22e-301a-42ca-a67a-e0614b8f64ff)
-3. main.py:
+3. The following Python packages are also required: (need to specify them in requirement.txt)
+polars
+seaborn
+matplotlib
+pyarrow
+tabulate
+4. main.py:
 * Reads dataset from a CSV file using polars.
 * Generates summary statistics and a histogram for the 'Age' column.
 * Saves summary statistics and a histogram as Markdown and image files.
-4. test_main.py:
+5. test_main.py:
 * Tests the generate_summary_and_visualization function.
 * Loads a test dataset using polars.
 * Calls the function to create a test summary report and histogram.
