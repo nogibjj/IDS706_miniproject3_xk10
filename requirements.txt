@@ -16,4 +16,4 @@ matplot
 seaborn
 tabulate
 polars
-
+pyarrow
